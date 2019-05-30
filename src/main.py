@@ -24,7 +24,7 @@ def get_place_and_magnitude():
     earthquakes_df = hc.sql("SELECT properties.mag, properties.place "
                             "FROM earthquakes_us "
                             "WHERE properties.mag > 1.0")
-    earthquakes_df.show()
+    return earthquakes_df.show()
 
 
 def main():

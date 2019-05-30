@@ -6,9 +6,9 @@ Read the JSON URL and return the place and magnitude of earthquakes greater than
 
 > ### Technical Specs:
 - IDE - PyCharm 2019.1
-- PyPy 3.6.1
+- Python 3.6.1
 - Apache Spark 2.4.3 (running locally on macOS Mojave)
-
+- Apache Hive 3.1.1
 
 
 ----
