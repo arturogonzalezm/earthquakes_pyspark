@@ -29,7 +29,7 @@ def get_place_and_magnitude():
 
 def main():
     """
-    :return: Calling magnitude and places where magnitude is greater than 1.0 function
+    :return: get_place_and_magnitude function
     """
     get_place_and_magnitude()
 
