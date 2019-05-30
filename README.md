@@ -2,7 +2,8 @@
 Extract the earthquakes from Geo JSON url using Apache Spark Python API.
 
 > ### Instructions:
-Read the JSON URL and return the place and magnitude of earthquakes greater than 1.0 using PySpark.
+- Build an ETL tool.
+- Read the JSON URL and return the place and magnitude of earthquakes greater than 1.0 using PySpark.
 
 > ### Technical Specs:
 - IDE - PyCharm 2019.1
