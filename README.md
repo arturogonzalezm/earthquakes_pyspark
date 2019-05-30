@@ -22,7 +22,7 @@ The proposed ETL/ELT high level architecture design(data lake approach):
 3. Apache Spark will load into HDFS.
 4. Hive will be the metastore engine on top of HDFS to query the master data.
 5. Apache Spark will perform the transformation according to the business requirements and load it into our data warehouse.
-6. The data warehouse(DWH) will have the data ready to be consumed by the BI's or analytics team.
+6. The data warehouse(DWH) will have the data ready to be consumed by the BI's or analytics team, in this case we are using PostgreSQL as it supports GeoSpatial data.
 7. The data visualisation tool will consume the data from our DWH ready to build sexy dashboards and reports.
 
  
