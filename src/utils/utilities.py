@@ -1,6 +1,6 @@
 import os
 
-from constants import path_us, file_name_us
+from utils.constants import path_us, file_name_us
 
 
 class CreateDailyFile:

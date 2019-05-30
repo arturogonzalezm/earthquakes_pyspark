@@ -1,7 +1,9 @@
-from utils import ReadDailyFile
+
 
 from pyspark.shell import sc
 from pyspark.sql import HiveContext
+
+from utils.utilities import ReadDailyFile
 
 hc = HiveContext(sc)
 sc.setLogLevel("INFO")

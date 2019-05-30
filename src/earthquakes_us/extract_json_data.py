@@ -1,7 +1,7 @@
 import requests
 
-from constants import url_us
-from utils import CreateDailyFile
+from utils.constants import url_us
+from utils.utilities import CreateDailyFile
 
 
 def download_data():

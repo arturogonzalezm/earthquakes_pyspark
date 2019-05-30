@@ -1,7 +1,7 @@
 import io
 
 from os import path
-from src.version import __version__, __url__, __license__, __author__, __email__
+from utils.version import __version__, __url__, __license__, __author__, __email__
 from setuptools import setup, find_packages  # Always prefer setuptools over distutils
 
 here = path.abspath(path.dirname(__file__))
