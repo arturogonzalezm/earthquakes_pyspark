@@ -17,7 +17,7 @@ than 1.0 using PySpark.
 
 #### The proposed architecture approach:
  
-![data_lake](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/bi.png)
+![bi](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/bi.png)
 
 Note: This approach can be implemented on the cloud or on-prem.
 
