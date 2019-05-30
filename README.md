@@ -13,6 +13,13 @@ than 1.0 using PySpark.
 - Apache Spark 2.4.3 (running locally on macOS Mojave)
 - Apache Hive 3.1.1
 
+> ### High architecture level design:
+
+#### The proposed architecture approach:
+ 
+![data_lake](https://github.com/arturosolutions/trainsimulator/blob/master/images/bi.png)
+
+Note: This approach can be implemented on the cloud or on-prem.
 
 ----
 
