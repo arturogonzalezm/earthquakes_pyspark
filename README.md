@@ -30,6 +30,10 @@ The proposed ETL/ELT high level architecture design(data lake approach):
 
 Note: This approach can be implemented on the cloud or on-prem.
 
+> ### How to set up your PySpark local environment:
+
+[PySpark locally](https://medium.com/@arturogonzalezm/how-to-set-up-your-local-pyspark-environment-using-pycharm-ide-935a75b0211)
+
 ----
 
 MIT License
