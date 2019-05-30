@@ -5,6 +5,9 @@ from utils import CreateDailyFile
 
 
 def download_data():
+    """
+    :return: Download a JSON file on daily basis.
+    """
     print('-> Download started. . .')
     r = requests.get(url_us)
 
