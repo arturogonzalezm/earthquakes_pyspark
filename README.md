@@ -32,6 +32,7 @@ Note: This approach can be implemented on the cloud or on-prem.
 
 > ### How to set up your PySpark local environment:
 
+Refer to the following link:
 [How to set up your local PySpark environment using PyCharm IDE](https://medium.com/@arturogonzalezm/how-to-set-up-your-local-pyspark-environment-using-pycharm-ide-935a75b0211)
 
 ----
