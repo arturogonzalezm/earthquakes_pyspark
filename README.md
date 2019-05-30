@@ -15,7 +15,7 @@ than 1.0 using PySpark.
 
 > ### High architecture level design:
 
-The proposed ETL/ELT architecture high level design:
+The proposed ETL/ELT high level architecture design(data lake approach):
 
 1. JSON URL.
 2. The script in this case Python Script will load the RAW JSON data into the local environment.
