@@ -17,13 +17,13 @@ than 1.0 using PySpark.
 
 The proposed architecture approach:
 
-1 - JSON URL.
-2 - The script in this case Python Script will load the RAW JSON data into the local environment.
-3 - Apache Spark will load into HDFS.
-4 - Hive will be the metastore engine on top of HDFS to query the master data.
-5 - Apache Spark will perform the transformation according to the business requirements and load it into our data warehouse.
-6 - The data warehouse(DWH) will have the data ready to be consumed by the BI's or analytics team.
-7 - The data visualisation tool will consume the data from our DWH ready to build sexy dashboards and reports.
+1. JSON URL.
+2. The script in this case Python Script will load the RAW JSON data into the local environment.
+3. Apache Spark will load into HDFS.
+4. Hive will be the metastore engine on top of HDFS to query the master data.
+5. Apache Spark will perform the transformation according to the business requirements and load it into our data warehouse.
+6. The data warehouse(DWH) will have the data ready to be consumed by the BI's or analytics team.
+7. The data visualisation tool will consume the data from our DWH ready to build sexy dashboards and reports.
 
  
 ![bi](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/bi.png)
