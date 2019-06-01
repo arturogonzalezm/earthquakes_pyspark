@@ -40,9 +40,13 @@ Input:
 $SPARK_HOME/bin/spark-submit ~/path/earthquakes_pyspark/src/main.py
 ```
 
-Output:
+PostgreSQL Output:
 
-![bi](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/output.png)
+![postgresql](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/output.png)
+
+Map Output:
+
+![map](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/earthquakes_30-05-2019.png)
 
 > ### How to set up your PySpark local environment:
 

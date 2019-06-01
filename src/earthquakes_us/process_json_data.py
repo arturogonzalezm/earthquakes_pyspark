@@ -19,6 +19,6 @@ def transform_load():
         "WHERE properties.mag > 1.0")
 
     earthquakes_df.write.format('jdbc').options(
-        url='jdbc:postgresql://localhost:5432/postgres',
+        url='jdbc:postgresql://localhost:5432/earthquakes',
         driver='org.postgresql.Driver',
-        dbtable='united_states_historical').mode('append').save()
+        dbtable='earthquakes_daily_historical').mode('append').save()
