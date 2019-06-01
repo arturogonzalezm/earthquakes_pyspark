@@ -30,6 +30,14 @@ The proposed ETL/ELT high level architecture design(data lake approach):
 
 Note: This approach can be implemented on the cloud or on-prem.
 
+> ### Run program:
+
+Assuming your local environment is properly set up, proceed by typing:
+
+```commandline
+$SPARK_HOME/bin/spark-submit ~/path/earthquakes_pyspark/src/main.py
+```
+
 > ### How to set up your PySpark local environment:
 
 Refer to the following link:
