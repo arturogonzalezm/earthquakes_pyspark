@@ -32,11 +32,17 @@ Note: This approach can be implemented on the cloud or on-prem.
 
 > ### Run program:
 
-Assuming your local environment is properly set up, proceed by typing:
+Assuming your local environment is properly set up, proceed by typing the following input on your terminal.
+
+Input:
 
 ```commandline
 $SPARK_HOME/bin/spark-submit ~/path/earthquakes_pyspark/src/main.py
 ```
+
+Output:
+
+![bi](https://github.com/arturosolutions/earthquakes_pyspark/blob/master/images/output.png)
 
 > ### How to set up your PySpark local environment:
 
