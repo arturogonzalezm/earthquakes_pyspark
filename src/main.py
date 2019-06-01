@@ -1,13 +1,13 @@
-from earthquakes_us.transform_json_data import get_place_and_magnitude
-from earthquakes_us.extract_json_data import download_data
+from earthquakes_us.extract_json_data import download_json_file
+from earthquakes_us.process_json_data import transform_load
 
 
 def main():
-    # Extract
-    download_data()
-    # Transform
-    get_place_and_magnitude()
-    # Load
+    """
+    :return: ETL/ELT
+    """
+    download_json_file()
+    transform_load()
 
 
 if __name__ == '__main__':
